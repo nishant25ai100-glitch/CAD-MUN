@@ -7,7 +7,7 @@ United Nations (MUN) event organized at JIET Jodhpur.
 [View Website](your-github-pages-link-here)
 
 ## 📸 Screenshots
-(Add 2-3 screenshots of your website here)
+
 
 ## ✨ Features
 - Committee information pages
