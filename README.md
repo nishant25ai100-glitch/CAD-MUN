@@ -1,26 +1,56 @@
-# 🌐 Council of Diplomatic Affairs — MUN Website
+# Council of Diplomatic Affairs — MUN Website
 
-A fully functional website built for a real Model 
-United Nations (MUN) event organized at JIET Jodhpur.
+Official website for the **Council of Diplomatic Affairs (CDA)** Model United Nations conference.
 
-## 🔗 Live Demo
-[View Website](your-github-pages-link-here)
+## 🌐 Live Site
+> Add your deployment URL here after hosting
 
-## 📸 Screenshots
+## 🛠️ Tech Stack
+- **React 19** + **TypeScript**
+- **Vite** (build tool)
+- **Tailwind CSS v4**
+- **Framer Motion** (animations)
+- **Lucide React** (icons)
 
+## 📁 Project Structure
+```
+src/
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── CommitteesList.tsx
+│   ├── ScheduleTimeline.tsx
+│   ├── TeamList.tsx
+│   ├── RegistrationForm.tsx
+│   └── Footer.tsx
+├── data.ts        ← Edit this to update content
+├── types.ts
+├── main.tsx
+└── index.css
+```
 
-## ✨ Features
-- Committee information pages
-- Event schedule display
-- Delegate registration section
-- Fully responsive design
-- Clean and professional UI
+## 🚀 Run Locally
 
-## 🛠️ Built With
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Google Fonts
+**Prerequisites:** Node.js 18+
 
-## 👤 Built By
-Nishant Garg — B.Tech AI, JIET Jodhpur
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+# Opens at http://localhost:3000
+
+# Build for production
+npm run build
+```
+
+## ✏️ How to Edit Content
+All website content (committees, team, schedule) is in **`src/data.ts`** — edit that file to update everything.
+
+## 🌍 Deploy
+This site can be deployed for free on **Vercel**:
+1. Push this repo to GitHub
+2. Go to [vercel.com](https://vercel.com) → Import repo
+3. Framework: **Vite** → Deploy ✅
